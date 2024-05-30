@@ -1,0 +1,37 @@
+# ---------------------------------------------------------------------------
+#
+#         Developed by VertrauterDavid
+#
+#         https://vertrauterdavid.net/
+#         https://github.com/VertrauterDavid/
+#
+# ---------------------------------------------------------------------------
+
+ProtectedWorlds:
+  - 'spawn'
+
+DisableBlockBreak: true
+DisableBlockPlace: true
+DisableCreatureSpawn: true
+DisableEnderPearl: true
+DisableDamage: true
+KeepInventory: true
+DisableItemDrop: false
+DisableItemPickup: false
+DisableFishing: true
+DisableItemFrameInteract: true
+DisablePortals: true
+
+EntityInteract:
+  Disabled: true
+  Whitelisted: # entity names with which can interacted
+    - 'PLAYER'
+
+BlockInteract:
+  Disabled: true
+  Whitelisted:
+    - 'ENDER_CHEST'
+    - 'ENCHANTING_TABLE'
+    - 'ANVIL'
+    - 'CHIPPED_ANVIL'
+    - 'DAMAGED_ANVIL'
